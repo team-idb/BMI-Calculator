@@ -1,0 +1,62 @@
+
+body {
+    width: 60%;
+    margin: 20px auto;
+  }
+  table {
+    background: #D9D9D9;
+    width: 100%;
+    padding: 40px 40px;
+  }
+  .result-wrap {
+    display: flex;
+    margin-top: 40px;
+    line-height: 50px;
+  }
+  .result-wrap .result-head {
+    background: #D9D9D9;
+    flex-basis: 20%;
+    text-align: center;
+  }
+  .result-number {
+    flex-basis: 80%;
+    background: #C0101B;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+  }
+  .status {
+    display: flex;
+    align-items: center;
+    margin-top: 31px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+  }
+  .underweight {
+    background: #FEB132;
+    flex-basis: 25%;
+    padding: 10px 0;
+  }
+  .normalweight {
+    background: #30A232;
+    flex-basis: 25%;
+    padding: 10px 0;
+  }
+  .overweight {
+    background: #E96024;
+    flex-basis: 25%;
+    padding: 10px 0;
+  }
+  .obese {
+    background: #C0101B;
+    flex-basis: 25%;
+    padding: 10px 0;
+  }
+  h5 {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+input {
+    width: 86%;
+}

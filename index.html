@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>BMI Calculator</h2>
+
+    <table>
+        <tr>
+            <td>Weight</td>
+            <td><input type="number" name="" id="weight"></td>
+            <td>Kg</td>
+        </tr>
+        <tr>
+            <td>Height</td>
+            <td><input type="number" name="" id="height-f"></td>
+            <td>feet</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="number" name="" id="height-in"></td>
+            <td>Inches</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" value="Calculate" onclick="calculate()"></td>
+            <td></td>
+        </tr>
+    </table>
+
+    <!-- result show-->
+    <div class="result-wrap">
+        <div class="result-head"><span>Your BMI:</span></div>
+        <div class="result-number"><span id="result"></span></div>
+    </div>
+
+
+    <!--standard-->
+    <div class="status">
+        <div class="underweight"><h5>Under Weight</h5><span> &lt; 18.5</span></div>
+        <div class="normalweight"><h5>Normal Weight</h5><span> 18.5-25 </span></div>
+        <div class="overweight"><h5>Over Weight</h5><span>25-30</span></div>
+        <div class="obese"><h5>Obese</h5><span>&gt; 30</span></div>
+    </div>
+
+    <span id="weightStatus"></span>
+
+
+
+    <script src="style.js"></script>
+</body>
+</html>
